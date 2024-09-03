@@ -1,0 +1,299 @@
+.body-form {
+    font-family: Verdana, sans-serif;
+    background-color: #F3FEB8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 500px;
+    background-color: #FEFBD8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-container h4 {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.form-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"],
+.form-container input[type="reset"] {
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover,
+.form-container input[type="reset"]:hover {
+    background-color: #333;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #F3FEB8;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3FEB8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link img {
+    width: 50px;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover img {
+    transform: scale(1.1);
+}
+
+.link-text {
+    color: #403c3c;
+}
+
+.link-text:hover {
+    color: #909090;
+}           
+
+.container {
+    display: flex;
+    min-height: 600px;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+}
+
+.main-content iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.main-content h4 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #F3FEB8;
+    border-top: 1px solid #ccc;
+}
+
+.container-menu {
+    padding: 20px;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    text-align: center;
+    width: 30%;
+    background-color: #FFFACD;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 200px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.menu-item h5 {
+    font-size: 1.2em;
+    color: #444;
+    margin: 0;
+}
+
+.recipe-section {
+    background-color: #FFFACD;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.recipe-section h1,
+.recipe-section h2,
+.recipe-section h3 {
+    color: #333;
+    text-align: center;
+}
+
+.recipe-section ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.recipe-section ol {
+    list-style-type: decimal;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.video-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.video-section video {
+    width: 640px;
+    height: 360px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.video-section p {
+    font-size: 1em;
+    color: #555;
+}
+
+.back-button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #333;
+}
+
+.body-profile {
+    font-family: Verdana, sans-serif;
+    background-color: #F3FEB8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-container {
+    width: 60%;
+    background-color: #FFFACD;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-container img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.profile-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.profile-info td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    /* border-top: 1px solid #ccc; */   
+}
